@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context="com.example.mokle.helprohingaapp.EmergencyServiceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_doctor"
+            android:onClick="onClickDoctor"
+            style="@style/ButtonStyle"
+            android:text="@string/doctor" />
+
+        <Button
+            android:id="@+id/btn_ambulance"
+            android:onClick="onClickAmbulance"
+            style="@style/ButtonStyle"
+            android:text="@string/ambulance" />
+
+        <Button
+            android:id="@+id/btn_police"
+            android:onClick="onClickPolice"
+            style="@style/ButtonStyle"
+            android:text="@string/police" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_donate"
+            android:onClick="onClickDonate"
+            android:layout_width="match_parent"
+            style="@style/ButtonStyle"
+            android:text="@string/donate" />
+    </LinearLayout>
+
+</LinearLayout>

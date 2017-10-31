@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.example.mokle.helprohingaapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_first_aid"
+            android:onClick="onClickFastAid"
+            style="@style/ButtonStyle"
+            android:layout_marginTop="10dp"
+            android:text="@string/fistAid" />
+
+        <Button
+            android:id="@+id/btn_emergency_service"
+            android:onClick="onClickEmergencyService"
+            style="@style/ButtonStyle"
+            android:text="@string/emergencyService" />
+
+        <Button
+            android:id="@+id/btn_safety_place"
+            android:onClick="onClickSafetyPlace"
+            style="@style/ButtonStyle"
+            android:text="@string/safetyPlace" />
+
+        <Button
+            android:id="@+id/btn_live_video"
+            android:onClick="onClickLiveVideo"
+            style="@style/ButtonStyle"
+            android:text="@string/liveVideo" />
+
+        <Button
+            android:id="@+id/btn_about"
+            android:onClick="onClickAbout"
+            style="@style/ButtonStyle"
+            android:text="@string/aboutUs" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_donate"
+            android:layout_width="match_parent"
+            style="@style/ButtonStyle"
+            android:text="@string/donate" />
+    </LinearLayout>
+
+</LinearLayout>

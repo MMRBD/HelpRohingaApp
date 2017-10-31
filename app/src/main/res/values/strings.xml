@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HelpRohingaApp</string>
+    <string name="fistAid">FIRST AID</string>
+    <string name="emergencyService">EMERGENCY SERVICE</string>
+    <string name="safetyPlace">SAFETY PLACE</string>
+    <string name="liveVideo">LIVE VIDEO</string>
+    <string name="aboutUs">ABOUT</string>
+    <string name="donate">DONATE</string>
+    <string name="other">OTHER</string>
+    <string name="cloth">CLOTH</string>
+    <string name="medicine">MEDICINE</string>
+    <string name="food">FOOD</string>
+    <string name="money">MONEY</string>
+    <string name="police">POLICE</string>
+    <string name="ambulance">AMBULANCE</string>
+    <string name="doctor">DOCTOR</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.example.mokle.helprohingaapp.DonationActivity">
+
+    <Button
+        android:id="@+id/btn_money"
+        android:onClick="onClickMoney"
+        style="@style/ButtonStyle"
+        android:text="@string/money" />
+
+    <Button
+        android:id="@+id/btn_food"
+        android:onClick="onCLickFood"
+        style="@style/ButtonStyle"
+        android:text="@string/food" />
+
+    <Button
+        android:id="@+id/btn_medicine"
+        android:onClick="onClickMedicine"
+        style="@style/ButtonStyle"
+        android:text="@string/medicine" />
+
+    <Button
+        android:id="@+id/btn_cloth"
+        android:onClick="onClickCloth"
+        style="@style/ButtonStyle"
+        android:text="@string/cloth" />
+
+    <Button
+        android:id="@+id/btn_other"
+        android:onClick="onClickOthers"
+        style="@style/ButtonStyle"
+        android:text="@string/other" />
+</LinearLayout>
