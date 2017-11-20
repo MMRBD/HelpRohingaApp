@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorBackground"
+    android:background="@drawable/bg_rohinyaa_2"
     tools:context="com.example.mokle.helprohingaapp.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorTransparent"
         android:orientation="vertical">
 
         <Button
@@ -47,15 +48,18 @@
     </LinearLayout>
 
     <LinearLayout
+        android:background="@color/colorTransparent"
         android:gravity="bottom"
         android:layout_weight="7"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_donate"
-            android:layout_width="match_parent"
+            android:onClick="onClickDonate"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
             style="@style/ButtonStyle"
             android:text="@string/donate" />
     </LinearLayout>

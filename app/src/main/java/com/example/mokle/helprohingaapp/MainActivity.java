@@ -22,14 +22,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickSafetyPlace(View view){
-        startActivity(new Intent(this,SafetyPlaceActivity.class));
+        startActivity(new Intent(this,SafetyPlaceMapsActivity.class));
     }
 
     public void onClickLiveVideo(View view){
-        startActivity(new Intent(this,LiveVideoActivity.class));
-    }
+        Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+        startActivityForResult(intent,0);
 
+    }
     public void onClickAbout(View view){
         startActivity(new Intent(this,AboutActivity.class));
     }
+    public void onClickDonate(View view){
+        startActivity(new Intent(this,DonationActivity.class));
+    }
+
+
 }

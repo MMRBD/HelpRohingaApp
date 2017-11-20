@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HelpRohingaApp</string>
+    <string name="app_name">Rohingya</string>
     <string name="fistAid">FIRST AID</string>
     <string name="emergencyService">EMERGENCY SERVICE</string>
     <string name="safetyPlace">SAFETY PLACE</string>
@@ -14,4 +14,68 @@
     <string name="police">POLICE</string>
     <string name="ambulance">AMBULANCE</string>
     <string name="doctor">DOCTOR</string>
+    <string name="title_activity_safety_place_maps">Map</string>
+    <string name="donate_info">DONATON INFORMATION</string>
+    <string name="submit_info">SUBMIT</string>
+    <string name="message">Message</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Mobile</string>
+    <string name="amount">Amount</string>
+
+
+    <string name="mkr_name">Md. Kamrul Hasan</string>
+    <string name="mkr_roll">04</string>
+    <string name="mkr_Batch">44th (eve)</string>
+    <string name="mkr_Uni">Dhaka International University</string>
+
+    <string name="nhs_name">Md. Nahid Hasan</string>
+    <string name="nhs_roll">13</string>
+    <string name="nhs_Batch">44th (eve)</string>
+    <string name="nhs_Uni">Dhaka International University</string>
+
+    <string name="of_name">Md. Omor Faruk</string>
+    <string name="of_roll">14</string>
+    <string name="of_Batch">44th (eve)</string>
+    <string name="of_Uni">Dhaka International University</string>
+
+
+
+
+    <string-array name="latList">
+        <item>23.783726</item>
+        <item>24.899536</item>
+        <item>23.688272</item>
+        <item>23.778217</item>
+    </string-array>
+    <array name="longList">
+        <item>90.344246</item>
+        <item>91.845856</item>
+        <item>90.443161</item>
+        <item>90.405357</item>
+    </array>
+
+    <string-array name="spinner_array">
+        <item>SELECT</item>
+        <item>MONEY</item>
+        <item>FOOD</item>
+        <item>MEDICINE</item>
+        <item>CLOTH</item>
+        <item>OTHER</item>
+    </string-array>
+
+    <string name="fast_aid_title"><b>প্রাথমিক চিকিৎসা</b></string>
+    <string name="fast_aid_1">১. জীবাণুমুক্ত গজ পিস : ক্ষত হতে রক্ত পড়া বন্ধ করে ও জীবাণু সংক্রমণ কমায়। ক্ষতস্থানকে নিরাপদে রাখে, তা ময়লা হতে দেয় না এবং ক্ষত থেকে নিঃসৃত তরল পদার্থ শুষে নেয়। </string>
+    <string name="fast_aid_2">২. রোলার ব্যান্ডেজ : ড্রেসিংকে তার জায়গায় ভালোভাবে আটকে রাখার জন্য বা অতিরিক্ত রক্তপাত হলে</string>
+    <string name="fast_aid_3">৩, লিউকোপ্লাস্ট : ব্যান্ডেজ ক্ষতের ওপর আটকানোর জন্য দরকার।</string>
+    <string name="fast_aid_4">৪. অ্যান্টিসেপটিক লোশন বা ক্রিম : ক্ষত পরিষ্কার ও জীবাণুমুক্ত করতে দরকার হয় । যেমন- স্যাভলন, হাইড্রোজেন পার অক্সাইড, পভিসেভ ইত্যাদি।</string>
+    <string name="fast_aid_5">৫. ট্যুইজারস: শরীর থেকে কাটা, কোনো ক্ষুদ্র বস্তু, পোকামাকড়ের শূল ইত্যাদি সরাতে বেশ ফলদায়ক। ধাতু বা প্লাস্টিকের তৈরি ও বিভিন্ন রকমের হতে পারে।</string>
+    <string name="fast_aid_7">৬. ক্রেপ ব্যান্ডেজ : হাড় ফেটে গেলে বা কোথাও মচকে গেলে ক্রেপ ব্যান্ডেজ ব্যবহারে ব্যথা কমে, ফোলাও ক্রমে হ্রাস পায়।</string>
+    <string name="fast_aid_8">৭. সেফটি পিন : কাটা বা ক্ষত থেকে কোনো স্পিলনটার সরাতে, ব্যান্ডেজ আটকাতে জায়গামতো ধরে রাখার জন্য সেফটি পিন একটি কাজের জিনিস। এটা হালকা, শক্ত ও নিরাপদ।</string>
+    <string name="fast_aid_9">৮. অ্যান্টিহিস্টামিন : যেমন হিস্টাসিন, ফেক্সোফেনাডিন ইত্যাদি। এগুলো সর্দি, কাশি, চুলকানি ও পোকার কামড়ের চিকিৎসায় সহায়ক।</string>
+    <string name="fast_aid_10">৯. ব্যথার ওষুধ : যেমন প্যারাসিটামল, আইবপ্রুফেন ইত্যাদি।</string>
+    <string name="fast_aid_11">১০. বার্ন ক্রিম : পোড়া জায়গায় ব্যথা কমাতে ও ঘা শুকাতে ব্যবহৃত হয় । যেমন- বার্নল বা সিলভারজিন ক্রিম। অ্যালোভেরা জেল পোড়া, চুলকানি ও চামড়ায় র?্যাশ হলে বেশ কার্যকর । ক্যালেন্ডুলা ও আরটিকা ইউরেন্স বার্ন ক্রিম দ্রুত ব্যথা কমায়।</string>
+    <string name="fast_aid_12">১১. থার্মোমিটার</string>
+
 </resources>

@@ -1,10 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
     android:background="@color/colorBackground"
-    tools:context="com.example.mokle.helprohingaapp.FastAidActivity">
+    tools:context="com.example.mokle.helprohingaapp.FastAidActivity"
+    android:baselineAligned="false">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="7"
+                    android:textSize="20dp"
+                    android:padding="@dimen/fast_aid_padding"
+                    android:text="@string/fast_aid_title" />
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:padding="@dimen/fast_aid_padding"
+                    android:text="@string/fast_aid_1" />
+
+                <TextView
+                    android:padding="@dimen/fast_aid_padding"
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/fast_aid_2" />
+
+                <TextView
+                    android:padding="@dimen/fast_aid_padding"
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/fast_aid_3"/>
+
+                <TextView
+                    android:padding="@dimen/fast_aid_padding"
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/fast_aid_4"/>
+
+                <TextView
+                    android:padding="@dimen/fast_aid_padding"
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/fast_aid_5" />
+
+                <TextView
+                    android:padding="@dimen/fast_aid_padding"
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/fast_aid_7" />
+
+                <TextView
+                    android:padding="@dimen/fast_aid_padding"
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/fast_aid_8"/>
+
+                <TextView
+                    android:padding="@dimen/fast_aid_padding"
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/fast_aid_9"/>
+
+                <TextView
+                    android:padding="@dimen/fast_aid_padding"
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/fast_aid_10"/>
+
+                <TextView
+                    android:padding="@dimen/fast_aid_padding"
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/fast_aid_11"/>
+
+                <TextView
+                    android:padding="@dimen/fast_aid_padding"
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="@string/fast_aid_12"/>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:background="@color/colorTransparent"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_donate"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            style="@style/ButtonStyle"
+            android:text="@string/donate" />
+    </LinearLayout>
+
+</LinearLayout>

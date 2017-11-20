@@ -14,8 +14,18 @@
         <item name="android:layout_margin">10dp</item>
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:textColor">@color/colorText</item>
-        <item name="android:background">@drawable/button</item>
+        <item name="android:background">@drawable/button_1</item>
         <item name="android:textSize">20dp</item>
     </style>
 
+    <style name="about_textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+<dimen name="fast_aid_padding">10dp</dimen>
 </resources>
